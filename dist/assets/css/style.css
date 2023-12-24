@@ -300,3 +300,95 @@ body {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+.works {
+    margin: 128px 0px 0px 0px;
+}
+
+.works__title {
+    text-align: center;
+    font-size: 46.386px;
+    font-weight: 800;
+    line-height: 108.537%;
+}
+
+.works__title span {
+    color: #75BF7A;
+}
+
+.works__descr {
+    max-width: 620px;
+    margin: 25px auto 0px;
+    color: #9E9DA2;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 113.043%;
+}
+
+.works__main {
+    margin: 88px 0px 0px 0px;
+}
+
+.works__body {
+    display: grid;
+    gap: 80px 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "request phone post" "instant phone cashless";
+}
+
+.works__item-request {
+    grid-area: request;
+    text-align: right;
+    margin-left: auto;
+}
+
+.works__item-post {
+    grid-area: post;
+}
+
+.works__item-instant {
+    grid-area: instant;
+    text-align: right;
+    margin-left: auto;
+}
+
+.works__item-cashless {
+    grid-area: cashless;
+}
+
+.works__item-phone {
+    position: relative;
+    grid-area: phone;
+    justify-self: center;
+    align-self: center;
+    z-index: 100;
+}
+
+.works__item-phone::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #75BF7A;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.works__heading {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 228.847%;
+}
+
+.works__text {
+    color: #9E9DA2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    max-width: 290px;
+}

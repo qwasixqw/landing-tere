@@ -1,0 +1,102 @@
+.works {
+    margin: 128px 0px 0px 0px;
+
+    &__sup {
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 46.386px;
+        font-weight: 800;
+        line-height: 108.537%;
+
+        span {
+            color: $color-green;
+        }
+    }
+
+    &__descr {
+        max-width: 620px;
+        margin: 25px auto 0px;
+        color: $color-gray;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 113.043%;
+    }
+
+    &__main {
+        margin: 88px 0px 0px 0px;
+    }
+
+    &__body {
+        display: grid;
+        gap: 80px 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "request phone post"
+            "instant phone cashless";
+    }
+
+    &__item {
+    }
+
+    &__item-request {
+        grid-area: request;
+        text-align: right;
+        margin-left: auto;
+    }
+
+    &__item-post {
+        grid-area: post;
+    }
+
+    &__item-instant {
+        grid-area: instant;
+        text-align: right;
+        margin-left: auto;
+    }
+
+    &__item-cashless {
+        grid-area: cashless;
+    }
+
+    &__item-phone {
+        position: relative;
+        grid-area: phone;
+        justify-self: center;
+        align-self: center;
+        z-index: 100;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background-color: $color-green;
+            border-radius: 100%;
+            z-index: -1;
+        }
+    }
+
+    &__icon {
+    }
+
+    &__heading {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 228.847%;
+    }
+
+    &__text {
+        color: $color-gray;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 130%; 
+        max-width: 290px;
+    }
+}
