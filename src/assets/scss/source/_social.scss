@@ -1,0 +1,12 @@
+.social {
+    margin: 38px 0px 243px 0px;
+    &__social {
+        text-align: center;
+    }
+
+    &__descr {
+        color: $color-green;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
