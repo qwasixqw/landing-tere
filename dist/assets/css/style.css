@@ -163,7 +163,9 @@ body {
 }
 
 .main {
+    margin: 37px 0px 0px 0px;
     flex: 1 1 auto;
+    background: #F9F9F9;
 }
 
 .header {
@@ -194,4 +196,55 @@ body {
     color: #FFFFFF;
     font-size: 22px;
     font-weight: 600;
+}
+
+.page__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0px 0px 0px;
+}
+
+.page__info {
+    align-self: flex-end;
+}
+
+.page__body {
+    max-width: 557px;
+}
+
+.page__title {
+    font-size: 60.726px;
+    font-weight: 800;
+    line-height: 108.537%;
+}
+
+.page__descr {
+    margin: 27px 0px 0px 0px;
+    color: #9E9DA2;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 116.667%;
+}
+
+.page__buttons {
+    display: flex;
+    gap: 0 30px;
+    margin: 62px 0px 0px 0px;
+}
+
+.page__button {
+    display: flex;
+    align-items: center;
+    gap: 0 13px;
+    background-color: #000000;
+    padding: 12px 33px 14px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page__text {
+    color: #FFFFFF;
+    font-size: 24.601px;
+    font-weight: 800;
+    text-transform: uppercase;
 }

@@ -1,0 +1,64 @@
+.page {
+    &__section {
+        display: flex;
+        justify-content: space-between;
+        margin: 55px 0px 0px 0px;
+    }
+
+    &__info {
+        align-self: flex-end;
+    }
+
+    &__body {
+        max-width: 557px;
+    }
+
+    &__title {
+        font-size: 60.726px;
+        font-weight: 800;
+        line-height: 108.537%;
+    }
+
+    &__descr {
+        margin: 27px 0px 0px 0px;
+        color: $color-gray;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 116.667%;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 0 30px;
+        margin: 62px 0px 0px 0px;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        gap: 0 13px;
+        background-color: $color-black;
+        padding: 12px 33px 14px 32px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    &__button-play {
+    }
+
+    &__text {
+        color: $color-white;
+        font-size: 24.601px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__button-store {
+    }
+
+    &__background {
+    }
+
+    &__bg {
+    }
+}
