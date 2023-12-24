@@ -1,0 +1,92 @@
+.benefits {
+    margin: 88px 0px 276px 0px;
+
+    &__wrapper {
+        padding: 0px 70px 0px 65px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 46.386px;
+        font-weight: 800;
+        line-height: 108.537%;
+
+        span {
+            color: $color-green;
+        }
+    }
+
+    &__main {
+        margin: 52px 0px 0px 0px;
+    }
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        gap: 56px 0;
+    }
+
+    &__item {
+        background-color: $color-white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item-first {
+        margin: 0px 85px 0px 0px;
+        padding: 25px 110px 24px 31px;
+    }
+    &__item-second {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 0px 0px 85px;
+        padding: 39px 161px 39px 110px;
+    }
+    &__item-third {
+        margin: 0px 85px 0px 0px;
+        padding: 40px 110px 30px 38px;
+    }
+
+    &__body {
+        align-self: center;
+    }
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 40px;
+    }
+
+    &__count {
+        color: $color-green;
+        font-size: 88px;
+        font-weight: 500;
+        line-height: 135%;
+    }
+
+    &__heading {
+        font-size: 33.943px;
+        font-weight: 600;
+        line-height: 95.749%;
+        max-width: 218px;
+    }
+
+    &__heading-first {
+        margin: 38px 0px 0px 0px;
+    }
+    &__heading-second {
+        margin: -35px 0px 0px 0px;
+    }
+
+    &__descr {
+        color: $color-gray;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 104.545%;
+        max-width: 520px;
+    }
+
+    &__image {
+    }
+}
