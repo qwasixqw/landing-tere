@@ -1,0 +1,49 @@
+.acclication {
+    margin: 86px 0px 0px 0px;
+
+    &__row {
+        padding: 50px 70px 49px 72px;
+        background-color: $color-green;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        color: $color-white;
+        font-size: 24.601px;
+        font-weight: 600;
+        line-height: 113.818%;
+        max-width: 247px;
+    }
+
+    &__form {
+        display: flex;
+        gap: 0 11px;
+    }
+
+    &__input {
+        display: block;
+        border-radius: 5px;
+        width: 500px;
+        padding: 26px 0px 24px 35px;
+        font-size: 24px;
+
+        &::placeholder {
+            color: #DADADA;
+        }
+    }
+
+    &__button {
+        background-color: $color-black;
+        border-radius: 5px;
+        padding: 26px 52px 25px 52px;
+
+        color: $color-white;
+        font-size: 22px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+}

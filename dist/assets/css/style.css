@@ -248,3 +248,55 @@ body {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+.acclication {
+    margin: 86px 0px 0px 0px;
+}
+
+.acclication__row {
+    padding: 50px 70px 49px 72px;
+    background-color: #75BF7A;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acclication__text {
+    color: #FFFFFF;
+    font-size: 24.601px;
+    font-weight: 600;
+    line-height: 113.818%;
+    max-width: 247px;
+}
+
+.acclication__form {
+    display: flex;
+    gap: 0 11px;
+}
+
+.acclication__input {
+    display: block;
+    border-radius: 5px;
+    width: 500px;
+    padding: 26px 0px 24px 35px;
+    font-size: 24px;
+}
+
+.acclication__input::-moz-placeholder {
+    color: #DADADA;
+}
+
+.acclication__input::placeholder {
+    color: #DADADA;
+}
+
+.acclication__button {
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 26px 52px 25px 52px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
