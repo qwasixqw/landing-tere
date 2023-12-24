@@ -1,0 +1,38 @@
+.header {
+    margin: 85px 0px 0px 0px;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+    }
+}
+
+.nav {
+    &__row {
+        display: flex;
+        align-items: center;
+        gap: 0 46px;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        font-size: 17.161px;
+        font-weight: 500;
+    }
+
+    &__help {
+        padding: 12px 27px 11px 28px;
+        border-radius: 5.952px;
+        background: #75bf7a;
+
+        color: $color-white;
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
